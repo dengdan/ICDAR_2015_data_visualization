@@ -19,9 +19,9 @@ help vis.py
 
 Examples:
 --show-text=0 --show-origin=0
-!(https://raw.githubusercontent.com/dengdan/ICDAR_2015_data_visualization/master/example1.png)
+![](https://raw.githubusercontent.com/dengdan/ICDAR_2015_data_visualization/master/example1.png)
 --show-text=1 --show-origin=0
-!(https://raw.githubusercontent.com/dengdan/ICDAR_2015_data_visualization/master/example2.png)
+![](https://raw.githubusercontent.com/dengdan/ICDAR_2015_data_visualization/master/example2.png)
 --show-text=1 --show-origin=1
-!(https://raw.githubusercontent.com/dengdan/ICDAR_2015_data_visualization/master/example3.png)
+![](https://raw.githubusercontent.com/dengdan/ICDAR_2015_data_visualization/master/example3.png)
 
