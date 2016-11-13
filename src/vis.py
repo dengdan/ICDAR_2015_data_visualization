@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 import logging
 
 import util.io
-import util.log
+#import util.log
 import util.img
 
 from config import training_image_name_pattern, training_gt_name_pattern
 
-util.log.init_logger()
+#util.log.init_logger()
 GREEN = 'green'
 def read_data(idx):
     image = util.img.imread(training_image_name_pattern%(idx), rgb = True)
@@ -67,9 +67,9 @@ def show(idx, color, show_text, show_origin):
 
 import argparse
 parser = argparse.ArgumentParser(description='show ICDAR 2015 images of task 4.1')
-parser.add_argument('--idx', type=int, default=1,help='the image to be showed')
+parser.add_argument('--idx', type=int, required = True,help='the index of the image to be showed, for example: --idx=1 to show img_1.jpg')
 parser.add_argument('--show-text', type=int, default=0,help='show ground truth text or not, default not, i.e.,0')
-parser.add_argument('--color', type=str, default=GREEN, help='the color of bounding box borders. See the color strings of matplotlib')
+parser.add_argument('--color', type=str, default=GREEN, help='the color of bounding box borders. Use the color strings of matplotlib, for example: white, green, red, etc.')
 parser.add_argument('--show-origin', type=int, default=0, help='show original image or not, default not.')
 args = parser.parse_args().__dict__
 logging.info('**************Arguments*****************')
