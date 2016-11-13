@@ -2,13 +2,13 @@
 Visualize the dataset of ICDAR 2015. Only challenge 4 task 1 is available currently.
 
 
-1. add pylib/src to PYTHONPATH
-For example, add line to `~/.bashrc`, 
+Steps:
+1. add pylib/src to PYTHONPATH. For example, add line to `~/.bashrc`, 
 ```
 export PYTHONPATH=YOUR_PATH/pylib/src':$PYTHONPATH
 ```
 2. config the directory in src/config.py
-3. execute
+3. execute in src
 ```
 python vis.py --idx=300 --color=white --show-text=1 --show-origin=1
 
