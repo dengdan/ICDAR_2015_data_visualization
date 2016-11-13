@@ -1,3 +1,3 @@
 git add . --all
-git commit -m "The first version of working code. "
+git commit -m "Add examples. "
 git push origin

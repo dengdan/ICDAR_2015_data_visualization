@@ -7,3 +7,12 @@ Visualize the dataset of ICDAR 2015. Only challenge 4 task 1 is available curren
 python vis.py --idx=300 --color=white --show-text=1 --show-origin=1
 
 ```
+Example:
+--show-text=0
+
+--show-text=1
+
+--show-origin=0
+
+--show-origin=1
+
