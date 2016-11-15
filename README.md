@@ -1,11 +1,11 @@
 # ICDAR_2015_data_visualization
 Visualize the dataset of ICDAR 2015. Only challenge 4 task 1 is available currently.
 
+Requirements:
+1. Matplotlib
+2. ICDAR2015 Challenge 4 dataset. Register and download it from http://rrc.cvc.uab.es/?com=introduction.
 
 Steps:
-
-
-
 step 1. config the directory in src/config.py
 
 step 1. execute in src
