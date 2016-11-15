@@ -2,10 +2,12 @@
 import matplotlib.pyplot as plt
 import logging
 
+import sys
+sys.path.insert(0, '../pylib/src')
+
 import util.io
 #import util.log
 import util.img
-
 from config import training_image_name_pattern, training_gt_name_pattern
 
 #util.log.init_logger()

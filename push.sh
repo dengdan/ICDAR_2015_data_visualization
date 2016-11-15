@@ -1,3 +1,3 @@
 git add . --all
-git commit -m "Add instructions. "
+git commit -m "add pylib src to sys.path in vis.py"
 git push origin
